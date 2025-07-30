@@ -8,3 +8,193 @@
     max-width: 600px;
     margin: 0 auto;
 }
+
+
+/* Header y footer con fondo azul */
+header,
+footer {
+    border-radius: 8px;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+    background-color: #1e3a8a;
+    /* Azul oscuro */
+    color: white;
+    padding: 20px;
+}
+
+
+/* Título principal */
+header h1 {
+    margin: 0 0 10px 0;
+    font-size: 2.5em;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+}
+
+
+/* Título del formulario o sección */
+section h2 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #1e3a8a;
+}
+
+
+/* Enlace de volver centrado */
+.volver {
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.volver a {
+    color: #1e3a8a;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+
+.volver a:hover {
+    color: #2563eb;
+    /* Azul más claro */
+    text-decoration: underline;
+}
+
+
+/* Estilo general del cuerpo */
+body {
+    color: #000000;
+    font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
+    margin: 20px;
+    line-height: 1.5;
+    background-color: #f9f9f9;
+}
+
+
+/* Espaciado entre secciones */
+section {
+    margin-bottom: 2em;
+}
+
+
+section p {
+    color: #000000;
+    font-size: 1rem;
+}
+
+
+/* Formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+/* Agrupación de cada campo */
+form div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+
+/* Etiquetas */
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+
+/* Campos de entrada */
+input,
+textarea {
+    width: 100%;
+    padding: 18px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+
+/* Campo readonly con estilo grisado */
+input[readonly] {
+    background-color: #f0f0f0;
+    color: #666;
+    cursor: not-allowed;
+}
+
+
+/* Botón */
+button {
+    width: 100%;
+    background-color: #1e3a8a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+
+button:hover {
+    background-color: #2563eb;
+}
+
+
+/* Tabla de listado */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 1rem;
+}
+
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 12px 15px;
+    text-align: left;
+}
+
+
+thead {
+    background-color: #1e3a8a;
+    color: white;
+}
+
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+/* Enlaces de acción (editar/eliminar) */
+a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #1e3a8a;
+    font-weight: bold;
+}
+
+
+a:hover {
+    color: #2563eb;
+    text-decoration: underline;
+}
+
+
+/* Footer */
+footer {
+    margin-top: 30px;
+    border-top: 3px solid #60a5fa;
+    /* Azul claro */
+    line-height: 1;
+}
