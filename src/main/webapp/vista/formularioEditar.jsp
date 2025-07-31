@@ -6,7 +6,6 @@
 
             <head>
                 <meta charset="UTF-8">
-                <title>Editar Persona</title>
                 <link rel="stylesheet" href="<%= baseURL %>/css/estilos.css">
             </head>
 
