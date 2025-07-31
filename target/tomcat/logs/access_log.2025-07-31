@@ -1,0 +1,16 @@
+0:0:0:0:0:0:0:1 - - [31/Jul/2025:06:33:50 -0300] "GET /alumnos-web/ HTTP/1.1" 200 263 http-bio-8080-exec-1 1128
+0:0:0:0:0:0:0:1 - - [31/Jul/2025:06:33:55 -0300] "GET /alumnos-web/vista/formularioAgregar.jsp HTTP/1.1" 200 1353 http-bio-8080-exec-2 265
+0:0:0:0:0:0:0:1 - - [31/Jul/2025:06:33:56 -0300] "GET /alumnos-web/css/estilos.css HTTP/1.1" 200 3061 http-bio-8080-exec-3 4
+0:0:0:0:0:0:0:1 - - [31/Jul/2025:06:34:08 -0300] "POST /alumnos-web/persona?action=agregar HTTP/1.1" 302 - http-bio-8080-exec-5 5
+0:0:0:0:0:0:0:1 - - [31/Jul/2025:06:34:08 -0300] "GET /alumnos-web/persona?action=listar HTTP/1.1" 200 2540 http-bio-8080-exec-6 143
+0:0:0:0:0:0:0:1 - - [31/Jul/2025:06:34:22 -0300] "GET /alumnos-web/vista/formularioAgregar.jsp HTTP/1.1" 200 1353 http-bio-8080-exec-8 6
+0:0:0:0:0:0:0:1 - - [31/Jul/2025:06:34:38 -0300] "POST /alumnos-web/persona?action=agregar HTTP/1.1" 302 - http-bio-8080-exec-10 0
+0:0:0:0:0:0:0:1 - - [31/Jul/2025:06:34:38 -0300] "GET /alumnos-web/persona?action=listar HTTP/1.1" 200 3513 http-bio-8080-exec-10 3
+0:0:0:0:0:0:0:1 - - [31/Jul/2025:06:35:45 -0300] "GET /alumnos-web/persona?action=cargarEditar&codigo=1 HTTP/1.1" 200 1698 http-bio-8080-exec-3 100
+0:0:0:0:0:0:0:1 - - [31/Jul/2025:06:35:51 -0300] "POST /alumnos-web/persona?action=editar HTTP/1.1" 302 - http-bio-8080-exec-5 4
+0:0:0:0:0:0:0:1 - - [31/Jul/2025:06:35:51 -0300] "GET /alumnos-web/persona?action=listar HTTP/1.1" 200 3515 http-bio-8080-exec-5 2
+0:0:0:0:0:0:0:1 - - [31/Jul/2025:06:35:57 -0300] "GET /alumnos-web/persona?action=cargarEditar&codigo=1 HTTP/1.1" 200 1700 http-bio-8080-exec-5 5
+0:0:0:0:0:0:0:1 - - [31/Jul/2025:06:36:04 -0300] "POST /alumnos-web/persona?action=editar HTTP/1.1" 302 - http-bio-8080-exec-9 2
+0:0:0:0:0:0:0:1 - - [31/Jul/2025:06:36:04 -0300] "GET /alumnos-web/persona?action=listar HTTP/1.1" 200 3517 http-bio-8080-exec-9 2
+0:0:0:0:0:0:0:1 - - [31/Jul/2025:06:37:35 -0300] "GET /alumnos-web/persona?action=listar HTTP/1.1" 200 3517 http-bio-8080-exec-10 4
+0:0:0:0:0:0:0:1 - - [31/Jul/2025:06:38:19 -0300] "GET /alumnos-web/persona?action=cargarEditar&codigo=1 HTTP/1.1" 200 1704 http-bio-8080-exec-3 77
